@@ -14,7 +14,7 @@ export const categories = [
     title: "1. Datelerimiz ",
     items: [ 
       { 
-        id: "kat1-video3", 
+        id: "kat1-video1", 
         title: "Makarna Date",
         desc: "Birlikteyken yaptığımız ilk aktivite makarna yapmaktı. Çok güzel bir gündü fakat benim maça yetişmem gerektiği için hepsini yiyemedik. Elifiminki çok güzel olmuştu ben farklı bir şey denemek istediğim için benimki çok makarnaya benzemiyordu yine de güzeldi.",
         coverImg: "/images/makarna.jpg",
@@ -39,7 +39,7 @@ export const categories = [
         ]
       },
       { 
-        id: "kat1-video1", 
+        id: "kat1-video3", 
         title: "Heykel Boyama Date",
         desc: "Elifimin isteiğiyle gittiğimiz başta çok istekli olmadığım ama beklediğimden çok daha keyifli olan bu heykel boyama  datemizde çok güzel vakit geçirdik ve birbirimizle ilgili ilk defa öğrendiğimiz birbirimizin derdini dinlediğimiz yakınlaştığımız ilk anlardan olan bu datemiz çok verimliydi ilişkimiz ve birbirimizi tanımak adına .",
         coverImg: "/images/heykel.jpg",
@@ -52,7 +52,7 @@ export const categories = [
         ]
       },
       { 
-        id: "kat1-video1", 
+        id: "kat1-video4", 
         title: "Sinema Ve Dava Çözme Date",
         desc: "Dabbe izlemeye gittik çok beğenmedik yine klasik bi dabbe senaryosuydu yinede güzel oldu. Sonrasında sinemadan çıkıp Elifimle birlikte kültürde cafeye gittik dava çözme oyununu antalyadan beri çözmeye çalışıyorduk nasip aksarayda çözememekmiş kafeden istediğimiz kalemler yazmasade bişeyler yapmaya çalıştık tabii ki benim dediğim adam katil çıktı . Güzel bir gündü sevgilim yine çok güzel olmuştu o günde. ",
         coverImg: "/images/cinema.jpg",
@@ -64,7 +64,7 @@ export const categories = [
         ]
       },
       { 
-        id: "kat1-video1", 
+        id: "kat1-video5", 
         title: "Lego Date",
         desc: "5M'den aldığımız legolar ile Beachpark'ta Gloria Jean's'de oturduk . İlk bitirme iddiasına girdik ama Elifim benden hızlı bitirdiği için tüm hevesim kaçtı. Avelinyom çok güzel yaptı ama benimki daha zordu bence o yüzden geriden geldim.",
         coverImg: "/images/lego.jpg",
@@ -74,7 +74,7 @@ export const categories = [
         ]
       },
       { 
-        id: "kat1-video1", 
+        id: "kat1-video6", 
         title: "Lego Date",
         desc: "5M'den aldığımız legolar ile Beachpark'ta Gloria Jean's'de oturup ilk bitirme iddiasına girdik ama Elifim benden hızlı bitirdiği için tüm hevesim kaçtı. Avelinyom çok güzel yaptı ama benimki daha zordu bence o yüzden geriden geldim.",
         coverImg: "/images/lego.jpg",
