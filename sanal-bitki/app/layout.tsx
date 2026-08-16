@@ -1,22 +1,18 @@
-import type { Metadata } from "next";
-import { Quicksand, Caveat } from "next/font/google";
-import "./globals.css";
+// Bu satırı en üste ekliyoruz
+import type { Metadata } from 'next'; 
 
-// Modern ve yumuşak bir okuma fontu
-const quicksand = Quicksand({ 
-  subsets: ["latin"],
-  variable: "--font-quicksand",
-});
-
-// Romantik el yazısı fontu
-const caveat = Caveat({ 
-  subsets: ["latin"],
-  variable: "--font-caveat",
-});
+// Sende globals.css veya font importları varsa onlar aynen kalsın
+import './globals.css'; 
 
 export const metadata: Metadata = {
-  title: "Senin İçin...",
-  description: "Özel bir sürpriz",
+  title: "CoupleFlix",
+  description: "Elif ve Benim Hikayem",
+  manifest: "/manifest.json", 
+  appleWebApp: {
+    capable: true, 
+    statusBarStyle: "black-translucent", 
+    title: "CoupleFlix",
+  },
 };
 
 export default function RootLayout({
@@ -26,9 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="tr">
-      <body className={`${quicksand.variable} ${caveat.variable} font-sans antialiased`}>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
