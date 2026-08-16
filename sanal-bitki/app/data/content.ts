@@ -60,7 +60,7 @@ export const categories = [
           { type: "image", url: "/images/cinema.jpg" },
           { type: "video", url: "/videos/cine.MOV" },
        { type: "image", url: "/images/cine3.jpg" },
-          { type: "video", url: "/videos/cine2.MOV" }
+          { type: "video", url: "/videos/cine.MOV" }
         ]
       },
       { 
